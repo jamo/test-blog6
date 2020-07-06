@@ -10,7 +10,7 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.allMarkdownRemaredges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -39,7 +39,7 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
-            </article>
+            </articl
           )
         })}
       </Layout>
