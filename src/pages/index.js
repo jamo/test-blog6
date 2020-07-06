@@ -39,7 +39,7 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
-            </article>
+            </articl
           )
         })}
       </Layout>
